@@ -25,8 +25,8 @@ export default function Contact() {
           <div className="contact-infos anim-scroll">
             <h2>Nos coordonnées</h2>
             <p> Abidjan, Côte d’Ivoire</p>
-            <p> +225 00 00 00 00</p>
-            <p>contact@fleur-emotion.com</p>
+            <p> +225 07 02 38 93 20</p>
+            <p>judikaelloukou@gmail.com</p>
 
             <p className="contact-note">
               Nous sommes disponibles du lundi au samedi,

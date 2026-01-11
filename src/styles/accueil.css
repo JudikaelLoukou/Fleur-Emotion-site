@@ -518,91 +518,9 @@
 
 
 
-
-
-.footer {
-  background: #2e4d4d;
-  color: #ffffff;
-  padding: 5rem 10vw 2rem;
-}
-
-/* CONTENU */
-.footer-contenu {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 3rem;
-  margin-bottom: 3rem;
-}
-
-.footer-col h3,
-.footer-col h4 {
-  margin-bottom: 1rem;
-  font-weight: 500;
-}
-
-.footer-logo {
-  font-size: 1.4rem;
-  letter-spacing: 1px;
-}
-
-.footer-col p {
-  font-size: 0.9rem;
-  line-height: 1.7;
-  color: #d9f0ec;
-}
-
-.footer-col ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-col ul li {
-  margin-bottom: 0.6rem;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-
-.footer-col ul li:hover {
-  opacity: 0.7;
-}
-
-/* RÉSEAUX */
-.footer-reseaux span {
-  display: block;
-  margin-bottom: 0.6rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.footer-reseaux span:hover {
-  transform: translateX(5px);
-}
-
-/* BAS DE FOOTER */
-.footer-bottom {
-  text-align: center;
-  font-size: 0.75rem;
-  color: #b7d8d2;
-  border-top: 1px solid rgba(255,255,255,0.15);
-  padding-top: 1.5rem;
-}
-
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .footer-contenu {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .footer-contenu {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-
+/* =========================
+   SECTION inspiratio
+========================= */
 
 .inspiration-section {
   padding: 120px 10vw;
@@ -656,6 +574,9 @@
 
 
 
+/* =========================
+   SECTION footer
+========================= */
 .footer {
   background: #c0bdbd;
   padding: 80px 10vw 30px;
