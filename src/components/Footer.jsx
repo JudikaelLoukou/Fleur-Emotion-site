@@ -29,8 +29,8 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Contact</h4>
           <p> Abidjan, Côte d’Ivoire</p>
-          <p>+225 00 00 00 00</p>
-          <p>contact@fleur-emotion.com</p>
+          <p>+225 07 02 38 93</p>
+          <p>judikaelloukou@gmail.com</p>
         </div>
 
         {/* COL 4 */}
@@ -39,14 +39,14 @@ export default function Footer() {
           <div className="footer-reseaux">
             <span>Instagram</span>
             <span>Facebook</span>
-            <span>Pinterest</span>
+            <span>Tiktok</span>
           </div>
         </div>
 
       </div>
 
       <div className="footer-bottom">
-        © 2026 Fleur & Émotion — Tous droits réservés
+        © 2026 Fleur & Émotion — LOUKOU Judikael
       </div>
     </footer>
   );

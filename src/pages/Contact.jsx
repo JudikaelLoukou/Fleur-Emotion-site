@@ -1,4 +1,6 @@
 import "../styles/contact.css";
+import SectionInspiration from "../components/SectionInspiration";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -22,9 +24,9 @@ export default function Contact() {
           {/* INFOS */}
           <div className="contact-infos anim-scroll">
             <h2>Nos coordonnées</h2>
-            <p>📍 Abidjan, Côte d’Ivoire</p>
-            <p>📞 +225 00 00 00 00</p>
-            <p>✉️ contact@fleur-emotion.com</p>
+            <p> Abidjan, Côte d’Ivoire</p>
+            <p> +225 00 00 00 00</p>
+            <p>contact@fleur-emotion.com</p>
 
             <p className="contact-note">
               Nous sommes disponibles du lundi au samedi,
@@ -47,6 +49,8 @@ export default function Contact() {
 
         </div>
       </section>
+       <SectionInspiration />
+       <Footer />
     </>
   );
 }
